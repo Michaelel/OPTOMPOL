@@ -3,14 +3,6 @@ $(function() {
 	PopUpHide();
 
 //mPageScroll2id
-	// jQuery(document).ready(function() {
-	// 	jQuery.scrollTo('#_catalog',500);
-	// });
-
-	// jQuery(document).ready(function() {
-	// 	jQuery.scrollTo('#__catalog',500);
-	// });
-
 	$(".nav a").mPageScroll2id();
 	$(".logo a").mPageScroll2id();
 	$(".anchor a").mPageScroll2id();
@@ -110,7 +102,6 @@ $(function() {
 	$('#catalog').waypoint(function() {
 		$('.line-for-fixed-navbar').addClass('animated fadeInDown');
 		$('.top_line').addClass('animated fadeIn');
-		$('#catalog_items').addClass('animated fadeIn');
 		$('.anchor').addClass('animated rotateIn')
 	}, {offset: '100%'});
 
