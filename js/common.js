@@ -3,13 +3,13 @@ $(function() {
 	PopUpHide();
 
 //mPageScroll2id
-	jQuery(document).ready(function() {
-		jQuery.scrollTo('#_catalog',500);
-	});
+	// jQuery(document).ready(function() {
+	// 	jQuery.scrollTo('#_catalog',500);
+	// });
 
-	jQuery(document).ready(function() {
-		jQuery.scrollTo('#__catalog',500);
-	});
+	// jQuery(document).ready(function() {
+	// 	jQuery.scrollTo('#__catalog',500);
+	// });
 
 	$(".nav a").mPageScroll2id();
 	$(".logo a").mPageScroll2id();
