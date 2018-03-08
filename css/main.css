@@ -814,19 +814,31 @@ p.verona_descr {
   
 
 .stykoperekryvayushchiy_odnour_profil h1,
- .stykoperekryvayushchiy_razno-odnour_profil h1{
+ .stykoperekryvayushchiy_razno-odnour_profil h1,
+ .ksk_gumka h1,
+ .ksk_plytka h1,
+ .okantovachnyi h1,
+ .stupenchatyi h1{
   color: #000;
   text-align: center;
   padding-bottom: 20px;
 }
 
 .stykoperekryvayushchiy_odnour_profil p,
- .stykoperekryvayushchiy_razno-odnour_profil p{
+ .stykoperekryvayushchiy_razno-odnour_profil p,
+ .ksk_gumka p,
+ .ksk_plytka p,
+ .okantovachnyi p,
+ .stupenchatyi p{
   color: #000;
   padding: 20px 0;
 }
 
 .stykoperekryvayushchiy_odnour_profil .sec img,
-.stykoperekryvayushchiy_razno-odnour_profil .sec img {
+.stykoperekryvayushchiy_razno-odnour_profil .sec img,
+.ksk_gumka .sec img,
+ .ksk_plytka .sec img,
+.okantovachnyi .sec img,
+.stupenchatyi .sec img {
   width: 100%;
 }
